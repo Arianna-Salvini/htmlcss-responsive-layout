@@ -150,7 +150,8 @@ p{
     text-align: left;
 }
 
-h2,
+
+.demo_card h2,
 .card_top>.fa-solid{
     color: var(--lay-primary-dark);
 }
