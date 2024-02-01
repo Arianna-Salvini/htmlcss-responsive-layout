@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* border: 1px dashed; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px dashed;
 }
 
 /* Utility */
@@ -68,6 +68,9 @@ h2{
     text-align: center;
 }
 
+.pd_1{
+    padding: 1rem;
+}
 /* debug */
 
 .debug.demo_card,
@@ -131,7 +134,61 @@ nav {
 
 .demo_card {
     background-color: var(--lay-primary-light);
+    border-radius: 2rem;
+    height: 100%;
+    margin-bottom: 2rem;
 }
+
+
+h2,
+p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.card_top>h2,
+.card_top>p{
+    text-align: left;
+}
+
+h2,
+.card_top>.fa-solid{
+    color: var(--lay-primary-dark);
+}
+
+.card_top{
+    justify-content: center;
+}
+
+.card_top>.fa-solid{
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+ 
+.demo_text{
+    line-height: 2rem;
+}
+
+.demo_card>.card_bottom{
+    margin: -2.3rem 0;
+    padding-top: 2.3rem;
+}
+
+.app_store_btn>a{
+    color: var(--lay-lighter);
+    font-size: 1.2rem;
+    background-color: var(--lay-primary-dark);
+    padding: 1rem 3rem;
+    margin-left: 1.5rem;
+    border-radius: 2rem;
+    line-height: 2rem;
+}
+
+.card_bottom>img {
+    width: 100%;
+    padding-top: 2rem ;
+}
+
 
 .strategic_plan,
 .benefits,
