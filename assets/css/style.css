@@ -77,7 +77,10 @@ h2{
 .debug.plan_card,
 .debug.testimonial_card,
 .debug.card_benefits,
-.about_card {
+.debug.about_card,
+.debug.get_started_card,
+.debug.footer_bottom,
+.debug.footer_top {
     height: 300px;
 }
 
@@ -111,7 +114,8 @@ nav {
 }
 
 .strategic_plan,
-.benefits {
+.benefits,
+.get_started {
     background-color: var(--lay-secondary);
 }
 
@@ -128,6 +132,13 @@ nav {
 
 .card_benefits{
     margin: 1rem;
+}
+
+/* footer */
+
+.footer_text{
+    background-color: var(--lay-dark);
+    margin: -1rem;
 }
 
 
