@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed;
+    /* border: 1px dashed; */
 }
 
 /* Utility */
@@ -103,6 +103,13 @@ nav {
     }
 }
 
+.bt_nav{
+    background-color: var(--lay-lighter);
+    color: var(--lay-darkest);
+    padding: 0.3rem 0.5rem;
+}
+
+
 /* Main */
 
 .demo_card {
@@ -143,15 +150,6 @@ nav {
 
 @media screen and (min-width: 768px) {
 
-    .nav_right>.menu_icon {
-        display: none;
-    }
-
-    .nav_right>.menu_extented {
-        display: inline-block;
-    }
-
-
     .col-12-sm {
         width: 100%;
     }
@@ -171,6 +169,16 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
+
+    .nav_right>.menu_icon {
+        display: none;
+    }
+
+    .nav_right>.menu_extented {
+        display: inline-block;
+    }
+
+
 
     .col-12-md {
         width: 100%;
