@@ -25,6 +25,7 @@ section {
     width: 90%;
     height: 100%;
     margin: auto;
+    margin: 0 -1rem;
 }
 
 .row {
