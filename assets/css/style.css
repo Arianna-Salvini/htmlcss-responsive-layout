@@ -25,7 +25,6 @@ section {
     width: 90%;
     height: 100%;
     margin: auto;
-    margin: 0 -1rem;
 }
 
 .row {
@@ -77,7 +76,8 @@ h2{
 .debug.demo_card,
 .debug.plan_card,
 .debug.testimonial_card,
-.debug.card_benefits {
+.debug.card_benefits,
+.about_card {
     height: 300px;
 }
 
