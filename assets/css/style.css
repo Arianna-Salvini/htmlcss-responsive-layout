@@ -73,7 +73,6 @@ h2{
 }
 /* debug */
 
-.debug.demo_card,
 .debug.plan_card,
 .debug.testimonial_card,
 .debug.card_benefits,
@@ -267,6 +266,23 @@ h2,
         width: calc((100% / 12) *4);
     }
 
+    .demo_card{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+        justify-content: center;
+
+        & > .card_top{
+            align-self: center;
+            justify-items: center;
+        }
+        
+        & > .card_bottom{
+            align-self: flex-end;
+            padding: 2rem;
+        }
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -274,6 +290,8 @@ h2,
     .container{
         max-width: 1200px;
     }
+
+
 
 }
 
