@@ -17,12 +17,8 @@
     --lay-highlight: #fdc15f;
 }
 
-section {
-    margin: 2rem 1rem;
-}
-
 .container {
-    width: 90%;
+    width: calc(100% - 48px);
     height: 100%;
     margin: auto;
 }
@@ -205,11 +201,3 @@ nav {
 }
 
 /* /nav */
-
-
-
-
-
-
-
-}
