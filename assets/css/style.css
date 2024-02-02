@@ -67,6 +67,10 @@ a {
 
 h2 {
     text-align: center;
+    font-size: 2.5rem;
+}
+
+h3{
     font-size: 1.5rem;
 }
 
@@ -79,7 +83,7 @@ h2 {
     background-color: var(--lay-secondary);
     margin: 1rem 0;
     text-align: center;
-    
+
 }
 
 .strategic_plan,
@@ -91,6 +95,16 @@ h2 {
 .testimonial_text_intro,
 .card_benefits {
     background-color: var(--lay-lighter);
+}
+
+h2,
+p {
+    text-align: center;
+    margin: 2rem;
+}
+
+p{
+    line-height: 1.7rem;
 }
 
 /* debug */
@@ -151,6 +165,7 @@ nav {
 }
 
 
+
 /* Main */
 
 /* Demo section */
@@ -158,13 +173,6 @@ nav {
     background-color: var(--lay-primary-light);
     border-radius: 2rem;
     height: 100%;
-}
-
-
-h2,
-p {
-    text-align: center;
-    margin: 2rem;
 }
 
 .card_top>h2,
@@ -187,10 +195,6 @@ p {
     margin-top: 2rem;
 }
 
-.demo_text {
-    line-height: 2rem;
-}
-
 .demo_card>.card_bottom {
     margin: -0.3rem 0;
     padding-top: 2.3rem;
@@ -203,7 +207,7 @@ p {
     padding: 1rem 3rem;
     margin-left: 1.5rem;
     border-radius: 2rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .card_bottom>img {
@@ -239,7 +243,6 @@ p {
 
 .card_light h3 {
     margin-bottom: 1rem;
-    font-size: 1.2rem;
 }
 
 .btn_down_arrow {
@@ -271,51 +274,80 @@ p {
 
 /* Testimonial Section */
 
-.testimonial_card{
+.testimonial_card {
     border-radius: 2rem;
 }
 
-.testimonial_label{
+.testimonial_label {
     padding-top: 3rem;
 }
 
-.testimonial_title{
+.testimonial_title {
     color: var(--lay-secondary);
     margin: 1rem;
 }
 
-.testimonial_text{
-    line-height: 2rem;
-}
-
-.img_testimonial{
+.img_testimonial {
     width: 70%;
     margin: auto;
     padding: 2rem 0;
 }
 
-.img_testimonial>img{
+.img_testimonial>img {
     width: 100%;
     border-radius: 50%;
     aspect-ratio: 1;
     object-fit: cover;
 }
 
-.testimonial_quote{
+.testimonial_quote {
     color: var(--lay-lighter);
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    margin: 0 2rem;
+    font-size: 1.4rem;
     padding-bottom: 2rem;
 }
 
-.testimonial_name{
+.testimonial_name {
     color: var(--lay-lighter);
     font-size: 1.3rem;
     padding-bottom: 2rem;
     margin: 0 2rem;
 }
 
+/* Benefits section */
+
+.card_benefits{
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.card_benefits_title{
+    color: var(--lay-lighter);
+}
+
+.benefit_number,
+.benefit_title{
+    color: var(--lay-secondary);
+}
+
+.benefit_title{
+    padding: 0.5rem 0;
+}
+
+.benefit_number{
+    font-size: 3rem;
+}
+
+.benefits_text{
+    text-align: left;
+    margin: 1rem 0 2rem;
+}
+
+.btn_cta_more{
+    color: var(--lay-lighter);
+    background-color: var(--lay-secondary);
+    padding: 0.5rem 3rem;
+    border-radius: 2.2rem;
+}
 
 
 /* footer */
@@ -348,20 +380,19 @@ p {
         width: calc((100% / 12) *4);
     }
 
+    /* Testimonial Section */
 
+    .testimonial_right {
+        align-self: center;
+        justify-self: flex-start;
+    }
 
-/* Testimonial Section */
-     
-.testimonial_right{
-    align-self: center;
-    justify-self: flex-start;
-}
+    .testimonial_quote,
+    .testimonial_name {
+        text-align: left;
+    }
 
-.testimonial_quote,
-.testimonial_name{
-    text-align: left;
-}
-
+    /* Benefits section */
 
 
 }
@@ -413,7 +444,7 @@ p {
     }
 
     /* Strategic Plan section*/
- 
+
     .plan_desktop_mode {
         width: 70%;
         align-self: flex-end;
@@ -426,13 +457,15 @@ p {
 
     }
 
-    .d_flex_desktop{
+    .d_flex_desktop {
         display: flex;
         justify-content: center;
         align-self: flex-end;
     }
 
-   
+    /* Benefits section */
+
+
 }
 
 @media screen and (min-width: 1200px) {
