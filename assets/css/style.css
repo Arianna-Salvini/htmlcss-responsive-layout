@@ -562,6 +562,7 @@ nav {
     /* Demo section */
 
     .demo_card {
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         padding-top: 0;
@@ -574,6 +575,8 @@ nav {
         &>.card_bottom {
             align-self: flex-end;
         }
+
+
 
     }
 
