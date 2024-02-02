@@ -66,13 +66,31 @@ a {
 }
 
 h2 {
-    padding: 1rem 0;
     text-align: center;
     font-size: 1.5rem;
 }
 
 .pd_1 {
     padding: 1rem;
+}
+
+.testimonial_card {
+    width: 100%;
+    background-color: var(--lay-secondary);
+    margin: 1rem 0;
+    text-align: center;
+    
+}
+
+.strategic_plan,
+.benefits,
+.get_started {
+    background-color: var(--lay-secondary);
+}
+
+.testimonial_text_intro,
+.card_benefits {
+    background-color: var(--lay-lighter);
 }
 
 /* debug */
@@ -135,11 +153,11 @@ nav {
 
 /* Main */
 
+/* Demo section */
 .demo_card {
     background-color: var(--lay-primary-light);
     border-radius: 2rem;
     height: 100%;
-    margin-bottom: 2rem;
 }
 
 
@@ -193,6 +211,8 @@ p {
     padding-top: 2rem;
 }
 
+/* Strategic Plan section*/
+
 .strategic_card_bottom>h2,
 .strategic_card_bottom>p {
     color: var(--lay-lighter);
@@ -234,17 +254,10 @@ p {
     border-radius: 50%;
 }
 
-
 .strategic_plan,
 .benefits,
 .get_started {
     background-color: var(--lay-secondary);
-}
-
-.testimonial_card {
-    width: 100%;
-    background-color: var(--lay-secondary);
-    margin: 1rem 0;
 }
 
 .testimonial_text_intro,
@@ -256,13 +269,16 @@ p {
     margin: 1rem;
 }
 
+/* Testimonial Section */
+
+
+
+
 /* footer */
 
 .footer_text {
     background-color: var(--lay-dark);
 }
-
-
 
 /* Media Query */
 
@@ -284,9 +300,13 @@ p {
         width: calc((100% / 12) *4);
     }
 
+
+
 }
 
 @media screen and (min-width: 992px) {
+
+    /* Header */
 
     .nav_right>.menu_icon {
         display: none;
@@ -312,6 +332,8 @@ p {
         width: calc((100% / 12) *4);
     }
 
+    /* Demo section */
+
     .demo_card {
         display: flex;
         flex-wrap: wrap;
@@ -328,6 +350,8 @@ p {
 
     }
 
+    /* Strategic Plan section*/
+ 
     .plan_desktop_mode {
         width: 70%;
         align-self: flex-end;
@@ -345,6 +369,9 @@ p {
         justify-content: center;
         align-self: flex-end;
     }
+
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -353,8 +380,4 @@ p {
         max-width: 1200px;
     }
 
-
-
 }
-
-/* /nav */
