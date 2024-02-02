@@ -73,11 +73,11 @@ a {
 
 h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .pd_1 {
@@ -111,17 +111,7 @@ p {
 
 p{
     line-height: 1.7rem;
-}
-
-/* debug */
-
-.debug.testimonial_card,
-.debug.card_benefits,
-.debug.about_card,
-.debug.get_started_card,
-.debug.footer_bottom,
-.debug.footer_top {
-    height: 300px;
+    font-size: 1.2rem;
 }
 
 /* Header */
@@ -186,7 +176,6 @@ nav {
     text-align: left;
 }
 
-
 .demo_card h2,
 .card_top>.fa-solid {
     color: var(--lay-primary-dark);
@@ -240,6 +229,10 @@ nav {
     border-radius: 2rem;
     margin: 1rem 0;
     padding: 2rem;
+}
+
+.strategic_title{
+    font-size: 3rem;
 }
 
 .card_light>.strategic_card_bottom {
@@ -358,6 +351,7 @@ nav {
 /* About Us section */
 .about_title{
     color: var(--lay-secondary);
+    font-size: 3rem;
 }
 
 .about_text,
