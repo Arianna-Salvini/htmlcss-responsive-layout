@@ -287,13 +287,13 @@ nav {
     margin: 1rem;
 }
 
-.img_testimonial {
+.img_round {
     width: 70%;
     margin: auto;
     padding: 2rem 0;
 }
 
-.img_testimonial>img {
+.img_round>img {
     width: 100%;
     border-radius: 50%;
     aspect-ratio: 1;
@@ -349,6 +349,52 @@ nav {
     border-radius: 2.2rem;
 }
 
+/* About Us section */
+.about_title{
+    color: var(--lay-secondary);
+}
+
+.about_text,
+.about_title{
+    text-align: left;
+}
+.about_card_top{
+    position: relative;
+
+}
+
+.about_card_top>img{
+    width: 80%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin: 1rem 2rem;
+}
+
+.about_card_top>.fa-quote-left{
+    color: var(--lay-secondary);
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+.about_card_bottom>h2{
+    color: var(--lay-secondary);
+    text-align: left;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.about_card_bottom{
+    padding-bottom: 5rem;
+}
+
+.fa-linkedin{
+    padding-right: 0.5rem;
+}
+
+.about_card_bottom>a {
+    margin-left: 2rem;
+}
 
 /* footer */
 
@@ -393,6 +439,17 @@ nav {
     }
 
     /* Benefits section */
+
+    .about_card_bottom>a {
+        padding: 0.5rem 2rem;
+    }
+
+    .about_card_top>.fa-quote-left{
+        font-size: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0.5rem;
+    }
 
 
 }
@@ -440,6 +497,10 @@ nav {
         &>.card_bottom {
             align-self: flex-end;
         }
+
+        /* About us section */
+
+        .
 
     }
 
