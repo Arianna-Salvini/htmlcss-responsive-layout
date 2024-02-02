@@ -437,11 +437,18 @@ nav {
     padding: 3rem;
     margin-top: 1rem;
 }
+
+.copyright li{
+    margin: 0 0.8rem;
+    list-style: disc;
+}
 /* footer */
 
 .footer_text {
     background-color: var(--lay-dark);
 }
+
+
 
 
 /* Media Query */
