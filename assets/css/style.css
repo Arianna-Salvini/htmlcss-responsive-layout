@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     border: 1px dashed;
 }
 
@@ -320,10 +320,6 @@ p{
             align-self: flex-end;
             padding: 2rem;
         }
-
-        .card_light{
-            margin: 2.3rem 4rem;
-        }  
     }
 
     
