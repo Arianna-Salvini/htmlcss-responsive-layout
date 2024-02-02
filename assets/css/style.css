@@ -73,7 +73,7 @@ a {
 
 h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 h3{
@@ -374,14 +374,14 @@ nav {
     border-radius: 50%;
     aspect-ratio: 1;
     object-fit: cover;
-    margin: 1rem 2rem;
+    margin: 2rem;
 }
 
 .about_card_top>.fa-quote-left{
     color: var(--lay-secondary);
     font-size: 5rem;
     position: absolute;
-    top: 0;
+    top: 5rem;
     right: 2rem;
 }
 .about_card_bottom>h2{
@@ -576,6 +576,12 @@ nav {
         }
 
     }
+
+       h2 {
+        font-size: 2.5rem;
+    }
+
+
 
     /* Strategic Plan section*/
 
