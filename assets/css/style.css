@@ -189,6 +189,44 @@ p{
     padding-top: 2rem ;
 }
 
+.strategic_card_bottom>h2,
+.strategic_card_bottom>p {
+    color: var(--lay-lighter);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.strategic_card_top>img{
+    width: 100%;
+}
+
+.card_light{
+    background-color: var(--lay-lighter);
+    border-radius: 2rem;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+
+.card_light>.strategic_card_bottom{
+    text-align: center;
+    padding: 2rem;
+}
+
+.card_light h3{
+    margin-bottom: 1rem;
+}
+
+.btn_down_arrow{
+    font-size: 2rem;
+    background-color: var(--lay-secondary);
+    margin: 2.5rem auto 1rem;
+    padding: 1rem;
+    width: 5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
 
 .strategic_plan,
 .benefits,
@@ -282,7 +320,14 @@ p{
             align-self: flex-end;
             padding: 2rem;
         }
+
+        .card_light{
+            margin: 2.3rem 4rem;
+        }  
     }
+
+    
+
 
 }
 
