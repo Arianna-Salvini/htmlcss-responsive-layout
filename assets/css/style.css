@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
+    font-size: 0.9rem;
     border: 1px dashed;
 }
 
@@ -63,14 +64,16 @@ a {
     text-decoration: none;
 }
 
-h2{
+h2 {
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.5rem;
 }
 
-.pd_1{
+.pd_1 {
     padding: 1rem;
 }
+
 /* debug */
 
 .debug.plan_card,
@@ -101,28 +104,29 @@ nav {
     }
 }
 
-.fa-solid, .fas {
+.fa-solid,
+.fas {
     color: white;
     padding: 0.5rem 0;
     font-size: 1.5rem;
 }
 
-.nav_link_box{
+.nav_link_box {
     height: 100%;
     align-items: center;
 }
 
-.nav_link>a{
+.nav_link>a {
     color: white;
-    padding:0.9rem;
- }
+    padding: 0.9rem;
+}
 
-.bt_nav{
+.bt_nav {
     background-color: var(--lay-lighter);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 
-    & >a{
+    &>a {
         color: var(--lay-darkest);
         padding: 1rem;
     }
@@ -140,41 +144,41 @@ nav {
 
 
 h2,
-p{
+p {
     text-align: center;
     margin: 2rem;
 }
 
 .card_top>h2,
-.card_top>p{
+.card_top>p {
     text-align: left;
 }
 
 
 .demo_card h2,
-.card_top>.fa-solid{
+.card_top>.fa-solid {
     color: var(--lay-primary-dark);
 }
 
-.card_top{
+.card_top {
     justify-content: center;
 }
 
-.card_top>.fa-solid{
+.card_top>.fa-solid {
     font-size: 5rem;
     margin-top: 2rem;
 }
- 
-.demo_text{
+
+.demo_text {
     line-height: 2rem;
 }
 
-.demo_card>.card_bottom{
+.demo_card>.card_bottom {
     margin: -2.3rem 0;
     padding-top: 2.3rem;
 }
 
-.app_store_btn>a{
+.app_store_btn>a {
     color: var(--lay-lighter);
     font-size: 1.2rem;
     background-color: var(--lay-primary-dark);
@@ -186,7 +190,7 @@ p{
 
 .card_bottom>img {
     width: 100%;
-    padding-top: 2rem ;
+    padding-top: 2rem;
 }
 
 .strategic_card_bottom>h2,
@@ -197,30 +201,33 @@ p{
 }
 
 
-.strategic_card_top>img{
+.strategic_card_top>img {
     width: 100%;
 }
 
-.card_light{
+.card_light {
     background-color: var(--lay-lighter);
     border-radius: 2rem;
     margin: 1rem 0;
     padding: 2rem;
 }
 
-.card_light>.strategic_card_bottom{
+.card_light>.strategic_card_bottom {
     text-align: center;
     padding: 2rem;
 }
 
-.card_light h3{
+.card_light h3 {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
-.btn_down_arrow{
+.btn_down_arrow {
+    display: block;
     font-size: 2rem;
+    color: black;
     background-color: var(--lay-secondary);
-    margin: 2.5rem auto 1rem;
+    margin: 1.5rem auto 1rem;
     padding: 1rem;
     width: 5rem;
     aspect-ratio: 1;
@@ -245,13 +252,13 @@ p{
     background-color: var(--lay-lighter);
 }
 
-.card_benefits{
+.card_benefits {
     margin: 1rem;
 }
 
 /* footer */
 
-.footer_text{
+.footer_text {
     background-color: var(--lay-dark);
 }
 
@@ -305,31 +312,44 @@ p{
         width: calc((100% / 12) *4);
     }
 
-    .demo_card{
+    .demo_card {
         display: flex;
         flex-wrap: wrap;
         padding-top: 0;
         justify-content: center;
 
-        & > .card_top{
-            align-self: center;
+        &>.card_top {
             justify-items: center;
         }
-        
-        & > .card_bottom{
+
+        &>.card_bottom {
             align-self: flex-end;
-            padding: 2rem;
         }
+
     }
 
-    
+    .plan_desktop_mode {
+        width: 70%;
+        align-self: flex-end;
+        justify-self: center;
+    }
 
+    .card_light>.strategic_card_bottom {
+        text-align: center;
+        padding: 0;
 
+    }
+
+    .d_flex_desktop{
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 1200px) {
 
-    .container{
+    .container {
         max-width: 1200px;
     }
 
